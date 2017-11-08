@@ -3,7 +3,7 @@
 	<script type="text/javascript">
 		var c=0
 		var t;
-		
+		//开始计时
 		function timedCount()
 		{
 			document.getElementById('txt').value=c
@@ -12,7 +12,8 @@
 			document.getElementById("e").disabled=true;
 			document.getElementById("b").disabled=false;
 		}
-
+		
+		//停止计时
 		function stopCount()
 		{
 			clearTimeout(t);
